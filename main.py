@@ -1,5 +1,5 @@
 import os
-import nextcord as discord
+import discord
 from discord.ext import commands
 
 TOKEN = os.getenv("DISCORD_TOKEN")
