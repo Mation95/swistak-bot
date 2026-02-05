@@ -14,7 +14,7 @@ async def on_ready():
     print(f"Bot zalogowany jako {bot.user}")
 
 @bot.command()
-async def test(ctx):
-    await ctx.send("Bot działa poprawnie!")
+async def ping(ctx):
+    await ctx.send("Pong!")
 
 bot.run(TOKEN)
