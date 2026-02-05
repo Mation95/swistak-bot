@@ -1,1 +1,1 @@
-discord.py==2.2.2
+nextcord==2.4.1
