@@ -18,5 +18,6 @@ async def ping(ctx):
     await ctx.send("Pong!")
 
 print("TOKEN CHECK:", TOKEN)
+print("TEST VAR:", os.getenv("TEST_VAR"))
 bot.run(TOKEN)
 
